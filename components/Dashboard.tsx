@@ -52,6 +52,10 @@ export const Dashboard: React.FC<DashboardProps> = ({ userRole, userPreferences,
     // New Buyer View
     { id: DashboardView.CROP_DISCOVERY, label: t('findCrops'), icon: Search, color: 'text-purple-600 bg-purple-50', roles: [UserRole.BUYER] },
 
+    // Admin Views
+    { id: DashboardView.HOME, label: t('manageUsers'), icon: Users, color: 'text-blue-600 bg-blue-50', roles: [UserRole.FPO] },
+    { id: DashboardView.HOME, label: t('viewReports'), icon: LayoutGrid, color: 'text-indigo-600 bg-indigo-50', roles: [UserRole.FPO] },
+
     { id: DashboardView.TRACK_SHIPMENT, label: t('trackShipment'), icon: Map, color: 'text-blue-600 bg-blue-50', roles: [UserRole.FARMER, UserRole.FPO, UserRole.BUYER] },
     { id: DashboardView.TRACK_SHIPMENT, label: t('myTrips'), icon: Map, color: 'text-blue-600 bg-blue-50', roles: [UserRole.TRANSPORTER] },
     { id: DashboardView.MARKET_RATES, label: t('mandiRates'), icon: TrendingUp, color: 'text-indigo-600 bg-indigo-50', roles: [UserRole.FARMER, UserRole.FPO] },
@@ -191,6 +195,87 @@ export const Dashboard: React.FC<DashboardProps> = ({ userRole, userPreferences,
                 <div>
                   <h3 className="text-xl font-black text-green-900">{t('askSaarthiAI')}</h3>
                   <p className="text-sm text-green-700 font-medium">{t('getMandiRatesHelp')}</p>
+                </div>
+              </div>
+            </div>
+          );
+        }
+
+        if (userRole === UserRole.FPO) {
+          return (
+            <div className="p-4 space-y-6">
+              <div className="flex items-center justify-between mb-2">
+                <h2 className="text-sm font-black text-blue-600 uppercase tracking-[0.2em]">{t('adminDashboard')}</h2>
+                <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">SYSTEM: ACTIVE</span>
+              </div>
+              
+              {/* Admin Stats Grid */}
+              <div className="grid grid-cols-2 gap-4">
+                <div className="bg-white p-5 rounded-[24px] shadow-sm border border-gray-100">
+                  <div className="bg-blue-100 w-10 h-10 rounded-xl flex items-center justify-center text-blue-600 mb-3">
+                    <Users size={20} />
+                  </div>
+                  <p className="text-xs font-bold text-gray-400 uppercase tracking-wider">{t('totalUsers')}</p>
+                  <p className="text-2xl font-black text-gray-800">1,240</p>
+                </div>
+                <div className="bg-white p-5 rounded-[24px] shadow-sm border border-gray-100">
+                  <div className="bg-green-100 w-10 h-10 rounded-xl flex items-center justify-center text-green-600 mb-3">
+                    <Truck size={20} />
+                  </div>
+                  <p className="text-xs font-bold text-gray-400 uppercase tracking-wider">{t('activeLoads')}</p>
+                  <p className="text-2xl font-black text-gray-800">84</p>
+                </div>
+                <div className="bg-white p-5 rounded-[24px] shadow-sm border border-gray-100">
+                  <div className="bg-yellow-100 w-10 h-10 rounded-xl flex items-center justify-center text-yellow-600 mb-3">
+                    <DollarSign size={20} />
+                  </div>
+                  <p className="text-xs font-bold text-gray-400 uppercase tracking-wider">{t('totalEarnings')}</p>
+                  <p className="text-2xl font-black text-gray-800">₹4.2L</p>
+                </div>
+                <div className="bg-white p-5 rounded-[24px] shadow-sm border border-gray-100">
+                  <div className="bg-red-100 w-10 h-10 rounded-xl flex items-center justify-center text-red-600 mb-3">
+                    <AlertCircle size={20} />
+                  </div>
+                  <p className="text-xs font-bold text-gray-400 uppercase tracking-wider">{t('pendingApprovals')}</p>
+                  <p className="text-2xl font-black text-gray-800">12</p>
+                </div>
+              </div>
+
+              {/* Admin Actions */}
+              <div className="space-y-4">
+                <button className="w-full bg-blue-600 text-white p-4 rounded-2xl font-bold flex items-center justify-between hover:bg-blue-700 transition-colors">
+                  <div className="flex items-center gap-3">
+                    <Users size={20} />
+                    <span>{t('manageUsers')}</span>
+                  </div>
+                  <ChevronLeft size={20} className="rotate-180" />
+                </button>
+                <button className="w-full bg-white border-2 border-gray-100 p-4 rounded-2xl font-bold flex items-center justify-between hover:border-blue-200 transition-colors">
+                  <div className="flex items-center gap-3 text-gray-700">
+                    <LayoutGrid size={20} className="text-blue-500" />
+                    <span>{t('viewReports')}</span>
+                  </div>
+                  <ChevronLeft size={20} className="rotate-180 text-gray-400" />
+                </button>
+              </div>
+
+              {/* System Health */}
+              <div className="bg-gray-900 rounded-[32px] p-6 text-white">
+                <div className="flex items-center justify-between mb-4">
+                  <h3 className="font-bold">{t('systemHealth')}</h3>
+                  <span className="flex items-center gap-1.5 text-green-400 text-xs font-bold">
+                    <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
+                    ONLINE
+                  </span>
+                </div>
+                <div className="space-y-3">
+                  <div className="flex justify-between text-sm">
+                    <span className="text-gray-400">Server Status</span>
+                    <span className="text-green-400">99.9%</span>
+                  </div>
+                  <div className="w-full bg-gray-800 h-1.5 rounded-full overflow-hidden">
+                    <div className="bg-green-500 h-full w-[99.9%]" />
+                  </div>
                 </div>
               </div>
             </div>

@@ -412,7 +412,387 @@ const translations: Translations = {
     [Language.ENGLISH]: "Deal Done",
     [Language.HINDI]: "सौदा पूरा हुआ",
     [Language.KANNADA]: "ಒಪ್ಪಂದ ಮುಗಿದಿದೆ"
-  }
+  },
+  features: {
+    [Language.ENGLISH]: "Features",
+    [Language.HINDI]: "विशेषताएँ",
+    [Language.KANNADA]: "ವೈಶಿಷ್ಟ್ಯಗಳು"
+  },
+  howItWorks: {
+    [Language.ENGLISH]: "How it Works",
+    [Language.HINDI]: "यह कैसे काम करता है",
+    [Language.KANNADA]: "ಇದು ಹೇಗೆ ಕೆಲಸ ಮಾಡುತ್ತದೆ"
+  },
+  login: {
+    [Language.ENGLISH]: "Login",
+    [Language.HINDI]: "लॉगिन",
+    [Language.KANNADA]: "ಲಾಗಿನ್"
+  },
+  startNow: {
+    [Language.ENGLISH]: "Start Now",
+    [Language.HINDI]: "अभी शुरू करें",
+    [Language.KANNADA]: "ಈಗಲೇ ಪ್ರಾರಂಭಿಸಿ"
+  },
+  connectAll: {
+    [Language.ENGLISH]: "Connect Farmers, Transporters & Buyers in One Place",
+    [Language.HINDI]: "किसान, गाड़ी वाले और खरीदार - सब एक जगह",
+    [Language.KANNADA]: "ರೈತರು, ಸಾರಿಗೆದಾರರು ಮತ್ತು ಖರೀದಿದಾರರನ್ನು ಒಂದೇ ಸ್ಥಳದಲ್ಲಿ ಸಂಪರ್ಕಿಸಿ"
+  },
+  whatDoYouWantToDo: {
+    [Language.ENGLISH]: "What do you want to do?",
+    [Language.HINDI]: "आप क्या करना चाहते हैं?",
+    [Language.KANNADA]: "ನೀವು ಏನು ಮಾಡಲು ಬಯಸುತ್ತೀರಿ?"
+  },
+  saarthiWhatDoesItDo: {
+    [Language.ENGLISH]: "What does Saarthi do?",
+    [Language.HINDI]: "सारथी क्या करता है?",
+    [Language.KANNADA]: "ಸಾರಥಿ ಏನು ಮಾಡುತ್ತಾರೆ?"
+  },
+  easyBooking: {
+    [Language.ENGLISH]: "Easy transport booking",
+    [Language.HINDI]: "गाड़ी बुक करना आसान",
+    [Language.KANNADA]: "ಸುಲಭ ಸಾರಿಗೆ ಬುಕಿಂಗ್"
+  },
+  directFarmerBuyer: {
+    [Language.ENGLISH]: "Direct farmer-buyer connection",
+    [Language.HINDI]: "किसान और खरीदार का सीधा संपर्क",
+    [Language.KANNADA]: "ನೇರ ರೈತ-ಖರೀದಿದಾರ ಸಂಪರ್ಕ"
+  },
+  priceTransparency: {
+    [Language.ENGLISH]: "Price transparency",
+    [Language.HINDI]: "सही दाम की जानकारी",
+    [Language.KANNADA]: "ಬೆಲೆ ಪಾರದರ್ಶಕತೆ"
+  },
+  liveTracking: {
+    [Language.ENGLISH]: "Live tracking",
+    [Language.HINDI]: "गाड़ी की लाइव जानकारी",
+    [Language.KANNADA]: "ಲೈವ್ ಟ್ರ್ಯಾಕಿಂಗ್"
+  },
+  aiHelp: {
+    [Language.ENGLISH]: "AI Assistant help",
+    [Language.HINDI]: "मददगार साथी की मदद",
+    [Language.KANNADA]: "ಎಐ ಸಹಾಯಕ ಸಹಾಯ"
+  },
+  helpNeeded: {
+    [Language.ENGLISH]: "Need help? Call or message us",
+    [Language.HINDI]: "मदद चाहिए? हमें कॉल करें या मैसेज भेजें",
+    [Language.KANNADA]: "ಸಹಾಯ ಬೇಕೇ? ನಮಗೆ ಕರೆ ಮಾಡಿ ಅಥವಾ ಸಂದೇಶ ಕಳುಹಿಸಿ"
+  },
+  phone: {
+    [Language.ENGLISH]: "Phone",
+    [Language.HINDI]: "फोन",
+    [Language.KANNADA]: "ಫೋನ್"
+  },
+  email: {
+    [Language.ENGLISH]: "Email",
+    [Language.HINDI]: "ईमेल",
+    [Language.KANNADA]: "ಇಮೇಲ್"
+  },
+  madadChahiye: {
+    [Language.ENGLISH]: "Need help?",
+    [Language.HINDI]: "मदद चाहिए?",
+    [Language.KANNADA]: "ಸಹಾಯ ಬೇಕೇ?"
+  },
+  humeCallKarein: {
+    [Language.ENGLISH]: "Call us or send a message",
+    [Language.HINDI]: "हमें कॉल करें या मैसेज भेजें",
+    [Language.KANNADA]: "ನಮಗೆ ಕರೆ ಮಾಡಿ ಅಥವಾ ಸಂದೇಶ ಕಳುಹಿಸಿ"
+  },
+  admin: {
+    [Language.ENGLISH]: "Admin",
+    [Language.HINDI]: "एडमिन",
+    [Language.KANNADA]: "ನಿರ್ವಾಹಕ"
+  },
+  platformManager: {
+    [Language.ENGLISH]: "Platform Manager",
+    [Language.HINDI]: "प्लेटफॉर्म मैनेजर",
+    [Language.KANNADA]: "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ ಮ್ಯಾನೇಜರ್"
+  },
+  adminDashboard: {
+    [Language.ENGLISH]: "Admin Dashboard",
+    [Language.HINDI]: "एडमिन डैशबोर्ड",
+    [Language.KANNADA]: "ನಿರ್ವಾಹಕ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್"
+  },
+  totalUsers: {
+    [Language.ENGLISH]: "Total Users",
+    [Language.HINDI]: "कुल उपयोगकर्ता",
+    [Language.KANNADA]: "ಒಟ್ಟು ಬಳಕೆದಾರರು"
+  },
+  activeLoads: {
+    [Language.ENGLISH]: "Active Loads",
+    [Language.HINDI]: "सक्रिय लोड",
+    [Language.KANNADA]: "ಸಕ್ರಿಯ ಲೋಡ್‌ಗಳು"
+  },
+  totalEarnings: {
+    [Language.ENGLISH]: "Total Earnings",
+    [Language.HINDI]: "कुल कमाई",
+    [Language.KANNADA]: "ಒಟ್ಟು ಗಳಿಕೆ"
+  },
+  pendingApprovals: {
+    [Language.ENGLISH]: "Pending Approvals",
+    [Language.HINDI]: "लंबित अनुमोदन",
+    [Language.KANNADA]: "ಬಾಕಿ ಇರುವ ಅನುಮೋದನೆಗಳು"
+  },
+  manageUsers: {
+    [Language.ENGLISH]: "Manage Users",
+    [Language.HINDI]: "उपयोगकर्ता प्रबंधित करें",
+    [Language.KANNADA]: "ಬಳಕೆದಾರರನ್ನು ನಿರ್ವಹಿಸಿ"
+  },
+  viewReports: {
+    [Language.ENGLISH]: "View Reports",
+    [Language.HINDI]: "रिपोर्ट देखें",
+    [Language.KANNADA]: "ವರದಿಗಳನ್ನು ವೀಕ್ಷಿಸಿ"
+  },
+  systemHealth: {
+    [Language.ENGLISH]: "System Health",
+    [Language.HINDI]: "सिस्टम स्वास्थ्य",
+    [Language.KANNADA]: "ಸಿಸ್ಟಮ್ ಆರೋಗ್ಯ"
+  },
+  settings: {
+    [Language.ENGLISH]: "Settings",
+    [Language.HINDI]: "सेटिंग्स",
+    [Language.KANNADA]: "ಸೆಟ್ಟಿಂಗ್‌ಗಳು"
+  },
+  backToHome: {
+    [Language.ENGLISH]: "Back to Home",
+    [Language.HINDI]: "होम पर वापस",
+    [Language.KANNADA]: "ಮುಖಪುಟಕ್ಕೆ ಹಿಂತಿರುಗಿ"
+  },
+  backToPersona: {
+    [Language.ENGLISH]: "Switch Role",
+    [Language.HINDI]: "भूमिका बदलें",
+    [Language.KANNADA]: "ಪಾತ್ರವನ್ನು ಬದಲಿಸಿ"
+  },
+  trips: {
+    [Language.ENGLISH]: "Trips",
+    [Language.HINDI]: "यात्राएं",
+    [Language.KANNADA]: "ಪ್ರಯಾಣಗಳು"
+  },
+  track: {
+    [Language.ENGLISH]: "Track",
+    [Language.HINDI]: "ट्रैक करें",
+    [Language.KANNADA]: "ಟ್ರ್ಯಾಕ್ ಮಾಡಿ"
+  },
+  help: {
+    [Language.ENGLISH]: "Help",
+    [Language.HINDI]: "मदद",
+    [Language.KANNADA]: "ಸಹಾಯ"
+  },
+  ai: {
+    [Language.ENGLISH]: "AI",
+    [Language.HINDI]: "AI",
+    [Language.KANNADA]: "AI"
+  },
+  namaste: {
+    [Language.ENGLISH]: "Namaste!",
+    [Language.HINDI]: "नमस्ते!",
+    [Language.KANNADA]: "ನಮಸ್ತೆ!"
+  },
+  farmerDashboard: {
+    [Language.ENGLISH]: "Farmer Dashboard",
+    [Language.HINDI]: "किसान डैशबोर्ड",
+    [Language.KANNADA]: "ರೈತ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್"
+  },
+  driverDashboard: {
+    [Language.ENGLISH]: "Driver Dashboard",
+    [Language.HINDI]: "ड्राइवर डैशबोर्ड",
+    [Language.KANNADA]: "ಚಾಲಕ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್"
+  },
+  buyerDashboard: {
+    [Language.ENGLISH]: "Buyer Dashboard",
+    [Language.HINDI]: "व्यापारी डैशबोर्ड",
+    [Language.KANNADA]: "ಖರೀದಿದಾರ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್"
+  },
+  fpoDashboard: {
+    [Language.ENGLISH]: "FPO Dashboard",
+    [Language.HINDI]: "FPO डैशबोर्ड",
+    [Language.KANNADA]: "FPO ಡ್ಯಾಶ್‌ಬೋರ್ಡ್"
+  },
+  askSaarthiAI: {
+    [Language.ENGLISH]: "Ask Saarthi AI",
+    [Language.HINDI]: "सारथी AI से पूछें",
+    [Language.KANNADA]: "ಸಾರಥಿ AI ಕೇಳಿ"
+  },
+  getMandiRatesHelp: {
+    [Language.ENGLISH]: "Get Mandi rates & help",
+    [Language.HINDI]: "मंडी के भाव और मदद पाएं",
+    [Language.KANNADA]: "ಮಂಡಿ ದರಗಳು ಮತ್ತು ಸಹಾಯ ಪಡೆಯಿರಿ"
+  },
+  completeProfile: {
+    [Language.ENGLISH]: "Complete Profile",
+    [Language.HINDI]: "प्रोफ़ाइल पूरी करें",
+    [Language.KANNADA]: "ಪ್ರೊಫೈಲ್ ಪೂರ್ಣಗೊಳಿಸಿ"
+  },
+  completeProfileDesc: {
+    [Language.ENGLISH]: "Fill details for better features",
+    [Language.HINDI]: "बेहतर सुविधाओं के लिए अपनी जानकारी भरें",
+    [Language.KANNADA]: "ಉತ್ತಮ ವೈಶಿಷ್ಟ್ಯಗಳಿಗಾಗಿ ವಿವರಗಳನ್ನು ಭರ್ತಿ ಮಾಡಿ"
+  },
+  setupNow: {
+    [Language.ENGLISH]: "Setup Now",
+    [Language.HINDI]: "अभी सेट करें",
+    [Language.KANNADA]: "ಈಗಲೇ ಹೊಂದಿಸಿ"
+  },
+  recentActivity: {
+    [Language.ENGLISH]: "Recent Activity",
+    [Language.HINDI]: "हाल की गतिविधि",
+    [Language.KANNADA]: "ಇತ್ತೀಚಿನ ಚಟುವಟಿಕೆ"
+  },
+  noActiveShipments: {
+    [Language.ENGLISH]: "No active shipments",
+    [Language.HINDI]: "कोई सक्रिय शिपमेंट नहीं है",
+    [Language.KANNADA]: "ಯಾವುದೇ ಸಕ್ರಿಯ ಸಾಗಣೆಗಳಿಲ್ಲ"
+  },
+  bookFirstLoad: {
+    [Language.ENGLISH]: "Book first load",
+    [Language.HINDI]: "पहला लोड बुक करें",
+    [Language.KANNADA]: "ಮೊದಲ ಲೋಡ್ ಬುಕ್ ಮಾಡಿ"
+  },
+  findCropsToBuy: {
+    [Language.ENGLISH]: "Find crops to buy",
+    [Language.HINDI]: "खरीदने के लिए फसलें खोजें",
+    [Language.KANNADA]: "ಖರೀದಿಸಲು ಬೆಳೆಗಳನ್ನು ಹುಡುಕಿ"
+  },
+  findCrops: {
+    [Language.ENGLISH]: "Find Crops",
+    [Language.HINDI]: "फसलें खोजें",
+    [Language.KANNADA]: "ಬೆಳೆಗಳನ್ನು ಹುಡುಕಿ"
+  },
+  findLoads: {
+    [Language.ENGLISH]: "Find Loads",
+    [Language.HINDI]: "लोड खोजें",
+    [Language.KANNADA]: "ಲೋಡ್‌ಗಳನ್ನು ಹುಡುಕಿ"
+  },
+  myTrips: {
+    [Language.ENGLISH]: "My Trips",
+    [Language.HINDI]: "मेरी यात्राएं",
+    [Language.KANNADA]: "ನನ್ನ ಪ್ರಯಾಣಗಳು"
+  },
+  mandiRates: {
+    [Language.ENGLISH]: "Mandi Rates",
+    [Language.HINDI]: "मंडी के भाव",
+    [Language.KANNADA]: "ಮಂಡಿ ದರಗಳು"
+  },
+  profile: {
+    [Language.ENGLISH]: "Profile",
+    [Language.HINDI]: "प्रोफ़ाइल",
+    [Language.KANNADA]: "ಪ್ರೊಫೈಲ್"
+  },
+  wallet: {
+    [Language.ENGLISH]: "Wallet",
+    [Language.HINDI]: "वॉलेट",
+    [Language.KANNADA]: "ವ್ಯಾಲೆಟ್"
+  },
+  support: {
+    [Language.ENGLISH]: "Support",
+    [Language.HINDI]: "सहायता",
+    [Language.KANNADA]: "ಬೆಂಬಲ"
+  },
+  logout: {
+    [Language.ENGLISH]: "Logout",
+    [Language.HINDI]: "लॉगआउट",
+    [Language.KANNADA]: "ಲಾಗ್ ಔಟ್"
+  },
+  home: {
+    [Language.ENGLISH]: "Home",
+    [Language.HINDI]: "होम",
+    [Language.KANNADA]: "ಮುಖಪುಟ"
+  },
+  madadChahiye: {
+    [Language.ENGLISH]: "Need Help?",
+    [Language.HINDI]: "मदद चाहिए?",
+    [Language.KANNADA]: "ಸಹಾಯ ಬೇಕೇ?"
+  },
+  humeCallKarein: {
+    [Language.ENGLISH]: "Call Us",
+    [Language.HINDI]: "हमें कॉल करें",
+    [Language.KANNADA]: "ನಮಗೆ ಕರೆ ಮಾಡಿ"
+  },
+  platformManagerDesc: {
+    [Language.ENGLISH]: "Manage platform & data",
+    [Language.HINDI]: "प्लेटफॉर्म और डेटा मैनेज करें",
+    [Language.KANNADA]: "ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ ಮತ್ತು ಡೇಟಾವನ್ನು ನಿರ್ವಹಿಸಿ"
+  },
+  bookTransport: {
+    [Language.ENGLISH]: "Book Transport",
+    [Language.HINDI]: "गाड़ी बुक करें",
+    [Language.KANNADA]: "ಸಾರಿಗೆ ಬುಕ್ ಮಾಡಿ"
+  },
+  sendToMandi: {
+    [Language.ENGLISH]: "Send to Mandi",
+    [Language.HINDI]: "मंडी भेजें",
+    [Language.KANNADA]: "ಮಂಡಿಗೆ ಕಳುಹಿಸಿ"
+  },
+  nearbyVehicles: {
+    [Language.ENGLISH]: "Nearby Vehicles",
+    [Language.HINDI]: "पास की गाड़ी",
+    [Language.KANNADA]: "ಹತ್ತಿರದ ವಾಹನಗಳು"
+  },
+  pickupLocation: {
+    [Language.ENGLISH]: "Pickup Location",
+    [Language.HINDI]: "पिकअप स्थान",
+    [Language.KANNADA]: "ಪಿಕಪ್ ಸ್ಥಳ"
+  },
+  selectCrop: {
+    [Language.ENGLISH]: "Select Crop",
+    [Language.HINDI]: "फसल चुनें",
+    [Language.KANNADA]: "ಬೆಳೆ ಆಯ್ಕೆಮಾಡಿ"
+  },
+  quantity: {
+    [Language.ENGLISH]: "Quantity",
+    [Language.HINDI]: "मात्रा",
+    [Language.KANNADA]: "ಪ್ರಮಾಣ"
+  },
+  bags: {
+    [Language.ENGLISH]: "Bags",
+    [Language.HINDI]: "बोरी",
+    [Language.KANNADA]: "ಚೀಲಗಳು"
+  },
+  kg: {
+    [Language.ENGLISH]: "kg",
+    [Language.HINDI]: "किलो",
+    [Language.KANNADA]: "ಕೆಜಿ"
+  },
+  bookNow: {
+    [Language.ENGLISH]: "Book Now",
+    [Language.HINDI]: "अभी बुक करें",
+    [Language.KANNADA]: "ಈಗಲೇ ಬುಕ್ ಮಾಡಿ"
+  },
+  driverDetails: {
+    [Language.ENGLISH]: "Driver Details",
+    [Language.HINDI]: "ड्राइवर का विवरण",
+    [Language.KANNADA]: "ಚಾಲಕನ ವಿವರಗಳು"
+  },
+  eta: {
+    [Language.ENGLISH]: "ETA",
+    [Language.HINDI]: "समय",
+    [Language.KANNADA]: "ETA"
+  },
+  vehicleComing: {
+    [Language.ENGLISH]: "Vehicle Coming",
+    [Language.HINDI]: "गाड़ी आ रही है",
+    [Language.KANNADA]: "ವಾಹನ ಬರುತ್ತಿದೆ"
+  },
+  reachedMandi: {
+    [Language.ENGLISH]: "Reached Mandi",
+    [Language.HINDI]: "मंडी पहुँच गए",
+    [Language.KANNADA]: "ಮಂಡಿ ತಲುಪಿದೆ"
+  },
+  sendToThisMandi: {
+    [Language.ENGLISH]: "Send to this Mandi",
+    [Language.HINDI]: "इस मंडी में भेजें",
+    [Language.KANNADA]: "ಈ ಮಂಡಿಗೆ ಕಳುಹಿಸಿ"
+  },
+  back: {
+    [Language.ENGLISH]: "Back",
+    [Language.HINDI]: "पीछे",
+    [Language.KANNADA]: "ಹಿಂದೆ"
+  },
+  askMeAnything: {
+    [Language.ENGLISH]: "Ask me anything...",
+    [Language.HINDI]: "मुझसे कुछ भी पूछें...",
+    [Language.KANNADA]: "ನನ್ನನ್ನು ಏನು ಬೇಕಾದರೂ ಕೇಳಿ..."
+  },
 };
 
 interface LanguageContextType {
